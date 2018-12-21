@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+   <body>
+      <div>
+         {% for key, val in result.items() %}
+            <p>{{ key }} = {{ val }}</p>
+         {% endfor %}
+         <p>{{ result.items()['animal'] }}</p>
+      </div>
+   </body>
+</html>
